@@ -2,7 +2,7 @@ package com.example.application.views.list;
 
 import com.example.application.data.entity.Contact;
 import com.example.application.data.service.CrmService;
-import com.example.application.views.MainLayout;
+import com.example.application.data.ViCon.views.MainLayout;
 import com.example.application.views.component.ContactForm;
 import com.example.application.views.component.NumericField;
 import com.vaadin.flow.component.button.Button;

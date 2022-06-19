@@ -1,7 +1,7 @@
 package com.example.application.views.demoView;
 
 import com.example.application.data.entity.BusinessPerson;
-import com.example.application.views.MainLayout;
+import com.example.application.data.ViCon.views.MainLayout;
 import com.example.application.views.component.PersonEditor;
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.orderedlayout.FlexComponent;
