@@ -123,7 +123,7 @@ public class TreeView extends VerticalLayout {
 
     private Span getFieldAndButton(String componentId){
         TextField statusField = new TextField();
-        statusField.setValue("Unselected");
+        statusField.setValue("unselected");
 
         Button button = new Button("Click");
         button.setId(componentId);
@@ -133,9 +133,9 @@ public class TreeView extends VerticalLayout {
                 String id = e.getSource().getId().toString();
             }
             else if ("confirmed".equals(statusField.getValue())) {
-                statusField.setValue("Denied");
+                statusField.setValue("denied");
             } else {
-                statusField.setValue("Unselected");
+                statusField.setValue("unselected");
             }
         });
 
